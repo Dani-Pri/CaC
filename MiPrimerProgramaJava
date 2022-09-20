@@ -1,0 +1,48 @@
+import javax.print.event.PrintEvent;
+
+public class MiPrimerProgramaJava {
+    /**
+ * Desafio 1
+    Clase 14-15/09/22
+    @author:Comision 22923 Pri Ramallo Estevez
+    @version: 1.0
+     */
+    public class MiPrimerProgramaJava {
+        public static void main(String[] args){
+            System.out.println("Mi primer programa java");
+
+            //Defino las variables
+            int miInt; //tipo entero
+            double miReal; //tipo real
+            byte miByte; //-128 al 127
+            short miShort; //tipo entero
+            long miLong; //tipo entero
+            float miFloat;//tipo real simple
+            char miChar;//tipo caracter
+            boolean miBoolean; //tipo booleando verdadero o falso
+
+            //inicialización de variables
+            miInt = 12;
+            miReal = 2.342;
+            miByte = 1;
+            miShort = -12.35;
+            miLong = 650;
+            miFloat = 62.35;
+            miChar = "c";
+            miBoolean = true;
+
+
+             //muestro los valores por consola
+            System.out.println("valor de miInt "+ miInt);
+            System.out.println("valor de miReal "+ miReal);
+            System.out.println("valor de miByte "+ miByte);
+            System.out.println("valor de miShort "+ miShort);
+            System.out.println("valor de miLong "+ miLong);
+            System.out.println("valor de miFloat "+ miFloat);
+            System.out.println("valor de miChar"+ miChar);
+            System.out.println("valor de miBoolean" + miBoolean);
+        }
+    }
+
+}
+                                                  
